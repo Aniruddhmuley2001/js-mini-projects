@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Quote Generator</title>
+</head>
+<body>
+    <h1>Random Quote Generator</h1>
+    <p>Following project has been implemented by 2 methods, one being by creating an array of selected quotes and calling functions and event handlers.
+        The other method is by fetching data from an external API and displaying it. 
+    </p>
+
+    <!-- From a given set of array of objects -->
+    <div id="method1">
+        <h2>Quotes from a special box!</h2>
+        <div id="quote-box">
+            <p>Change the world by being yourself.</p>
+            <p>Amy Poehler</p>
+        </div>
+        <!-- Calling function by onclick -->
+        <button onclick="printRandomQuote()">Quote by Function</button>
+        <!-- Adding event listener in JS -->
+        <button id="loadQuote">Quote by Event Listener</button>
+    </div>
+
+    <!-- From API -->
+    <div id="method2">
+        <h2>Quotes from everywhere!</h2>
+        <div id="quote-box-2">
+            <p>Change the world by being yourself.</p>
+            <p>Amy Poehler</p>
+        </div>
+        <button onclick="printRandomQuote2()">Generate by fetch call in API</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="config.js"></script>
+</body>
+</html>

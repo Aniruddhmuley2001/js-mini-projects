@@ -1,0 +1,21 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#method1, #method2 {
+    border: solid;
+    margin: 1%;
+    padding: 2%;
+}
+
+h2 {
+    margin-top: 0%;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+    padding: 1%;
+}
